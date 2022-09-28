@@ -42,6 +42,9 @@ function App() {
 
 	const handleDelete = () => {
 		setImagePreview(null);
+		setWidth(0);
+		setHeight(0);
+		setRatio(0);
 	};
 
 	return (
